@@ -1,0 +1,48 @@
+/* Created by TacereFlagellum 
+	16/07/2014
+*/
+
+* {
+	padding: 0px;
+	margin: 0px;
+}
+
+.header {
+	height: 40px;
+	width: 100%;
+	background-color: #407025;
+	position:fixed;
+	top:0px;
+	border-bottom: 3px solid #db2124;
+}
+
+.text {
+	width: 900px;
+	margin: 0 auto;
+	text-align: center;
+	margin-top:70px;
+}
+
+
+.opac {
+	height: 50px;
+	filter: alpha(opacity=40); /* For IE8 and earlier */
+	background-color: aqua;
+	position: fixed;
+	width: 100%;
+	top: 43px;
+background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(255,255,255,0) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,1)), color-stop(100%,rgba(255,255,255,0))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%); /* IE10+ */
+background: linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#00ffffff',GradientType=0 ); /* IE6-9 */
+}
+
+.arrow {
+	height: 40px;
+}
+.arrow2{
+	height: 30px;
+}
